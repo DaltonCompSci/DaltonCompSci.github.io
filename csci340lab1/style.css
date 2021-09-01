@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  color: blue;
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+}
+
+.page-description {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  text-align: start;
+  padding: 35px;
+}
+
+.col-sm-3 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  test-align: start;
+}
+
+header h1 {
+  text-align: start;
+  color: blue;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+
+}
