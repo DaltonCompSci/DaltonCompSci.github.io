@@ -32,7 +32,6 @@ header .row{
   margin-top: 15px;
   display: flex;
   justify-content: flex-end;
-  test-align: start;
 }
 
 header h1 {
@@ -53,11 +52,11 @@ header h1 {
 }
 
 .container{
-  align-items: center:
+  align-items: center;
 }
 h3 {
   font-size: 15px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 .jumbotron h2 {
   font-size: 50px;
