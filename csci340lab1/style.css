@@ -44,6 +44,21 @@ header h1 {
 
 }
 
+.col{
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  margin: 10px;
+}
+
+.container{
+  align-items: center:
+}
+h3 {
+  font-size: 15px;
+  font-weight: 600px;
+}
 .jumbotron h2 {
   font-size: 50px;
   font-weight: 700;
