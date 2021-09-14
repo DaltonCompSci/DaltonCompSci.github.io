@@ -30,19 +30,43 @@ h2{
   padding: 20px;
   width: 600px;
 }
-.weatherdescriptor{
+.Sunday{
   font-size: 20px;
-  margin-top: 30px;
-  padding: 20px;
-
+  margin-top: 45px;
+  padding: 10px;
+}
+.Monday{
+  font-size: 20px;
+  padding: 10px;
+}
+.Tuesday{
+  font-size: 20px;
+  padding: 10px;
+}
+.Wednesday{
+  font-size: 20px;
+  padding: 10px;
+}
+.Thursday{
+  font-size: 20px;
+  padding: 10px;
+}
+.Friday{
+  font-size: 20px;
+  padding: 10px;
+}
+.Saturday{
+  font-size: 20px;
+  padding: 10px;
 }
 .gamedesc{
-  font-size: 20px;
-  margin: 10px;
+  outline: black solid 3px;
+  font-size: 60px;
+  margin-top: 70px;
   padding: 20px;
 }
 .gamesale{
-  font-size: 20px;
-  margin: 10px;
+  outline: black solid 3px;
+  font-size: 60px;
   padding: 20px;
 }
