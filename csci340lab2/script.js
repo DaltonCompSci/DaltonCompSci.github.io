@@ -1,11 +1,31 @@
 $(document).ready(function() {
   $('.weather').click(function() {
     $.ajax({
-      dataType: "jsonp",
-      jsonpCallback: "",
-      url: "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m",
+      dataType: "json",
+      url: "https://api.open-meteo.com/v1/forecast?latitude=29.76&longitude=-95.36&hourly=temperature_2m",
       success: function(results) {
-        $('.weatherdescriptor').text(results["temperature_2m"]);
+        $('.weatherdescriptor').text(results["hourly"]["temperature_2m"][12]);
+        console.log(results["hourly"]["temperature_2m"][12]);
+      },
+      error: function(xhr,status,error) {
+        console.log(error);
+      }
+    });
+  });
+});
+$(document).ready(function() {
+  $('.games').click(function() {
+    random = myFunction();
+    $.ajax({
+      dataType: "json",
+      url: "https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15",
+      success: function(results) {
+
+        $('.gamedesc').text(results[random]["title"]);
+        $('.gamesale').text(results[random]["salePrice"]);
+        
+        console.log(results[random]["internalName"]);
+        console.log(results[random]["salePrice"]);
       },
       error: function(xhr,status,error) {
         console.log(error);
